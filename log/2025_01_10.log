@@ -1,0 +1,634 @@
+2025-01-10 07:24:10.060291 [info] : ========== Server init ==========
+2025-01-10 07:24:10.060350 [info] : Port:1316, OpenLinger: false
+2025-01-10 07:24:10.060361 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-10 07:24:10.060367 [info] : LogSys level: 0
+2025-01-10 07:24:10.060371 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-10 07:24:10.060376 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-10 07:24:10.060381 [info] : ========== Server start ==========
+2025-01-10 07:24:15.885315 [info] : Client[18](192.168.240.1:53851) in, userCount:1
+2025-01-10 07:24:15.885437 [info] : Client[18] in!
+2025-01-10 07:24:15.960075 [info] : Client[20](192.168.240.1:54107) in, userCount:2
+2025-01-10 07:24:15.960104 [debug]: `Ã•`
+2025-01-10 07:24:15.960190 [info] : Client[20] in!
+2025-01-10 07:24:15.960414 [debug]: †
+2025-01-10 07:24:15.960544 [debug]: @
+2025-01-10 07:24:15.960639 [debug]: †
+2025-01-10 07:24:15.960730 [debug]: 
+2025-01-10 07:24:15.960826 [debug]: –
+2025-01-10 07:24:15.961031 [debug]: @
+2025-01-10 07:24:15.961123 [debug]: ê#
+2025-01-10 07:24:15.961206 [debug]: ê#
+2025-01-10 07:24:15.961276 [debug]: `Ã•`
+2025-01-10 07:24:15.961348 [debug]: [GET], [/index.html], [1.1]
+2025-01-10 07:24:15.961357 [debug]: /index.html
+2025-01-10 07:24:15.961383 [debug]: file path /home/snowy/Linux/blog/resources//index.html
+2025-01-10 07:24:15.961428 [debug]: filesize:3148, 2  to 3258
+2025-01-10 07:24:15.984902 [debug]: p
+2025-01-10 07:24:15.985190 [debug]: p
+2025-01-10 07:24:15.985260 [debug]:  
+2025-01-10 07:24:15.985308 [debug]: @
+2025-01-10 07:24:15.985356 [debug]: p
+2025-01-10 07:24:15.985390 [debug]: p
+2025-01-10 07:24:15.985415 [debug]: ê
+2025-01-10 07:24:15.985440 [debug]: ê
+2025-01-10 07:24:15.985479 [debug]: `¶b
+2025-01-10 07:24:15.985565 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:24:15.985580 [debug]: /css/bootstrap.min.css
+2025-01-10 07:24:15.985658 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:24:15.985677 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:24:15.985963 [debug]: †
+2025-01-10 07:24:15.986176 [debug]: †
+2025-01-10 07:24:15.986220 [debug]: †
+2025-01-10 07:24:15.986277 [debug]: `
+2025-01-10 07:24:15.986306 [debug]: †
+2025-01-10 07:24:15.986353 [debug]: †
+2025-01-10 07:24:15.986376 [debug]: ∞
+2025-01-10 07:24:15.986452 [debug]: ∞
+2025-01-10 07:24:15.986529 [debug]: `‹%a
+2025-01-10 07:24:15.987338 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:24:15.987387 [debug]: /css/animate.css
+2025-01-10 07:24:15.987409 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:24:15.987418 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:24:15.986760 [info] : Client[21](192.168.240.1:54363) in, userCount:3
+2025-01-10 07:24:15.987520 [info] : Client[21] in!
+2025-01-10 07:24:15.987545 [info] : Client[23](192.168.240.1:54619) in, userCount:4
+2025-01-10 07:24:15.987556 [info] : Client[23] in!
+2025-01-10 07:24:15.987566 [info] : Client[25](192.168.240.1:54875) in, userCount:5
+2025-01-10 07:24:15.987574 [info] : Client[25] in!
+2025-01-10 07:24:15.987586 [info] : Client[26](192.168.240.1:55131) in, userCount:6
+2025-01-10 07:24:15.987593 [info] : Client[26] in!
+2025-01-10 07:24:15.987942 [debug]: †
+2025-01-10 07:24:15.988069 [debug]: †
+2025-01-10 07:24:15.988099 [debug]: †
+2025-01-10 07:24:15.988123 [debug]: Ä
+2025-01-10 07:24:15.988193 [debug]: –¸ÀF√U
+2025-01-10 07:24:15.988320 [debug]: Ä
+2025-01-10 07:24:15.988365 [debug]: P
+2025-01-10 07:24:15.988408 [debug]: @
+2025-01-10 07:24:15.988454 [debug]: Ä
+2025-01-10 07:24:15.988497 [debug]: Ä
+2025-01-10 07:24:15.988646 [debug]: p
+2025-01-10 07:24:15.988537 [debug]: ¿"
+2025-01-10 07:24:15.988768 [debug]: †
+2025-01-10 07:24:15.988838 [debug]: p
+2025-01-10 07:24:15.988847 [debug]: †!
+2025-01-10 07:24:15.988870 [debug]: 0
+2025-01-10 07:24:15.988884 [debug]: p
+2025-01-10 07:24:15.988893 [debug]: @
+2025-01-10 07:24:15.988919 [debug]: P#
+2025-01-10 07:24:15.988960 [debug]: †!
+2025-01-10 07:24:15.988920 [debug]: 0
+2025-01-10 07:24:15.988997 [debug]: 
+2025-01-10 07:24:15.989012 [debug]: p
+2025-01-10 07:24:15.989019 [debug]: 
+2025-01-10 07:24:15.989035 [debug]: p
+2025-01-10 07:24:15.989041 [debug]: `¶b
+2025-01-10 07:24:15.989057 [debug]: Ä
+2025-01-10 07:24:15.989062 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:24:15.989065 [debug]: /images/profile-image.jpg
+2025-01-10 07:24:15.989079 [debug]: Ä
+2025-01-10 07:24:15.989112 [debug]: `º%`
+2025-01-10 07:24:15.989176 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:24:15.989240 [debug]: ¿"
+2025-01-10 07:24:15.988538 [debug]: †
+2025-01-10 07:24:15.989318 [debug]: `Ï•a
+2025-01-10 07:24:15.989326 [debug]: †
+2025-01-10 07:24:15.989365 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:24:15.989371 [debug]: /css/font-awesome.min.css
+2025-01-10 07:24:15.989391 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:24:15.989404 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:24:15.989478 [debug]: ê
+2025-01-10 07:24:15.989654 [debug]: ê
+2025-01-10 07:24:15.989699 [debug]: `¸%b
+2025-01-10 07:24:15.989081 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:24:15.990735 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:24:15.990876 [debug]: /css/magnific-popup.css
+2025-01-10 07:24:15.990910 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:24:15.990923 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:24:15.990744 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:24:15.989256 [debug]: /css/style.css
+2025-01-10 07:24:15.991142 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:24:15.991161 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:24:15.996602 [debug]: p+ÃF√U
+2025-01-10 07:24:15.996910 [debug]: p+ÃF√U
+2025-01-10 07:24:15.997080 [debug]:  
+2025-01-10 07:24:15.997165 [debug]: Ä
+2025-01-10 07:24:15.997305 [debug]: `¸%b
+2025-01-10 07:24:15.997418 [debug]: p+ÃF√U
+2025-01-10 07:24:15.997512 [debug]: p
+2025-01-10 07:24:15.997605 [debug]: p
+2025-01-10 07:24:15.997664 [debug]: `¸%b
+2025-01-10 07:24:15.997699 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:24:15.997729 [debug]: /js/jquery.js
+2025-01-10 07:24:15.997798 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:24:15.997827 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:24:16.001221 [debug]: `,ÃF√U
+2025-01-10 07:24:16.001239 [debug]: ÔÀF√U
+2025-01-10 07:24:16.001352 [debug]: `,ÃF√U
+2025-01-10 07:24:16.001393 [debug]:  
+2025-01-10 07:24:16.001418 [debug]: @
+2025-01-10 07:24:16.001422 [debug]: †
+2025-01-10 07:24:16.001444 [debug]: `¶b
+2025-01-10 07:24:16.001465 [debug]: ∞
+2025-01-10 07:24:16.001518 [debug]: ê%
+2025-01-10 07:24:16.001467 [debug]: `,ÃF√U
+2025-01-10 07:24:16.001591 [debug]: `Ã•`
+2025-01-10 07:24:16.001621 [debug]: 
+2025-01-10 07:24:16.001628 [debug]: †
+2025-01-10 07:24:16.001675 [debug]: ÔÀF√U
+2025-01-10 07:24:16.001682 [debug]: 
+2025-01-10 07:24:16.001712 [debug]: ÔÀF√U
+2025-01-10 07:24:16.001727 [debug]: `¶b
+2025-01-10 07:24:16.001767 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:24:16.001790 [debug]: /js/bootstrap.min.js
+2025-01-10 07:24:16.001768 [debug]: `Ã•`
+2025-01-10 07:24:16.001877 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:24:16.001891 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:24:16.001916 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:24:16.001923 [debug]: /js/smoothscroll.js
+2025-01-10 07:24:16.002112 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:24:16.002140 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:24:16.005084 [debug]: ¿
+2025-01-10 07:24:16.005224 [debug]: P 
+2025-01-10 07:24:16.005228 [debug]:  -ÃF√U
+2025-01-10 07:24:16.005407 [debug]: p
+2025-01-10 07:24:16.005449 [debug]: p
+2025-01-10 07:24:16.005464 [debug]:  -ÃF√U
+2025-01-10 07:24:16.005502 [debug]: @
+2025-01-10 07:24:16.005512 [debug]: P
+2025-01-10 07:24:16.005544 [debug]: `¶b
+2025-01-10 07:24:16.005556 [debug]: 0
+2025-01-10 07:24:16.005583 [debug]: p
+2025-01-10 07:24:16.005605 [debug]: `º%`
+2025-01-10 07:24:16.005622 [debug]: p¸ÀF√U
+2025-01-10 07:24:16.005648 [debug]:  -ÃF√U
+2025-01-10 07:24:16.005658 [debug]: p¸ÀF√U
+2025-01-10 07:24:16.005693 [debug]: –+ÃF√U
+2025-01-10 07:24:16.005754 [debug]: –+ÃF√U
+2025-01-10 07:24:16.005694 [debug]: `¶b
+2025-01-10 07:24:16.005820 [debug]: `º%`
+2025-01-10 07:24:16.005840 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:24:16.005845 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:24:16.005867 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:24:16.005874 [debug]: /js/wow.min.js
+2025-01-10 07:24:16.005939 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:24:16.005948 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:24:16.005955 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:24:16.005961 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:24:16.006369 [debug]: p
+2025-01-10 07:24:16.006558 [debug]:  
+2025-01-10 07:24:16.006726 [debug]: Ä
+2025-01-10 07:24:16.006883 [debug]: `¸%b
+2025-01-10 07:24:16.007034 [debug]: p
+2025-01-10 07:24:16.007180 [debug]: p
+2025-01-10 07:24:16.007343 [debug]: p
+2025-01-10 07:24:16.007494 [debug]: `¸%b
+2025-01-10 07:24:16.007633 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:24:16.007772 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:24:16.007875 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:24:16.007993 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:27:30.887221 [info] : ========== Server init ==========
+2025-01-10 07:27:30.887244 [info] : Port:1316, OpenLinger: false
+2025-01-10 07:27:30.887250 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-10 07:27:30.887255 [info] : LogSys level: 0
+2025-01-10 07:27:30.887259 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-10 07:27:30.887327 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-10 07:27:30.887336 [info] : ========== Server start ==========
+2025-01-10 07:27:33.698952 [info] : Client[18](192.168.240.1:7950) in, userCount:1
+2025-01-10 07:27:33.699064 [info] : Client[18] in!
+2025-01-10 07:27:33.776532 [debug]: [GET], [/index.html], [1.1]
+2025-01-10 07:27:33.776659 [debug]: /index.html
+2025-01-10 07:27:33.776712 [debug]: file path /home/snowy/Linux/blog/resources//index.html
+2025-01-10 07:27:33.776727 [debug]: filesize:3148, 2  to 3258
+2025-01-10 07:27:33.779337 [info] : Client[20](192.168.240.1:8206) in, userCount:2
+2025-01-10 07:27:33.779503 [info] : Client[20] in!
+2025-01-10 07:27:33.798311 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:27:33.798400 [debug]: /css/bootstrap.min.css
+2025-01-10 07:27:33.798452 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:27:33.798463 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:27:33.799533 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:27:33.799590 [debug]: /css/animate.css
+2025-01-10 07:27:33.799614 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:27:33.799622 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:27:33.800883 [info] : Client[21](192.168.240.1:8462) in, userCount:3
+2025-01-10 07:27:33.800926 [info] : Client[21] in!
+2025-01-10 07:27:33.800944 [info] : Client[23](192.168.240.1:8718) in, userCount:4
+2025-01-10 07:27:33.800952 [info] : Client[23] in!
+2025-01-10 07:27:33.800962 [info] : Client[25](192.168.240.1:8974) in, userCount:5
+2025-01-10 07:27:33.800969 [info] : Client[25] in!
+2025-01-10 07:27:33.800982 [info] : Client[26](192.168.240.1:9230) in, userCount:6
+2025-01-10 07:27:33.800990 [info] : Client[26] in!
+2025-01-10 07:27:33.801537 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:27:33.801563 [debug]: /css/magnific-popup.css
+2025-01-10 07:27:33.801583 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:27:33.801594 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:27:33.801753 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:27:33.801761 [debug]: /css/font-awesome.min.css
+2025-01-10 07:27:33.801775 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:27:33.801784 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:27:33.802018 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:27:33.802023 [debug]: /css/style.css
+2025-01-10 07:27:33.802035 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:27:33.802042 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:27:33.802202 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:27:33.802212 [debug]: /images/profile-image.jpg
+2025-01-10 07:27:33.802426 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:27:33.802439 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:27:33.810108 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:27:33.810272 [debug]: /js/jquery.js
+2025-01-10 07:27:33.810407 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:27:33.810421 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:27:33.829222 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:27:33.829337 [debug]: /js/bootstrap.min.js
+2025-01-10 07:27:33.829391 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:27:33.829403 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:27:33.829976 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:27:33.830011 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:27:33.830042 [debug]: /js/smoothscroll.js
+2025-01-10 07:27:33.830075 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:27:33.830084 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:27:33.830022 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:27:33.830202 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:27:33.830211 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:27:33.830356 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:27:33.830362 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:27:33.830398 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:27:33.830405 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:27:33.830462 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:27:33.830467 [debug]: /js/wow.min.js
+2025-01-10 07:27:33.830501 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:27:33.830507 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:27:33.830648 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:27:33.830652 [debug]: /js/custom.js
+2025-01-10 07:27:33.830767 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:27:33.830773 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:27:37.572263 [debug]: [GET], [/login.html], [1.1]
+2025-01-10 07:27:37.572365 [debug]: /login.html
+2025-01-10 07:27:37.572430 [debug]: file path /home/snowy/Linux/blog/resources//login.html
+2025-01-10 07:27:37.572484 [debug]: filesize:3385, 2  to 3495
+2025-01-10 07:27:37.613462 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:27:37.613636 [debug]: /css/bootstrap.min.css
+2025-01-10 07:27:37.613748 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:27:37.613801 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:27:37.614584 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:27:37.614620 [debug]: /css/magnific-popup.css
+2025-01-10 07:27:37.614743 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:27:37.614751 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:27:37.615483 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:27:37.615543 [debug]: /css/animate.css
+2025-01-10 07:27:37.615597 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:27:37.615611 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:27:37.615756 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:27:37.615767 [debug]: /css/font-awesome.min.css
+2025-01-10 07:27:37.615823 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:27:37.615833 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:27:37.616056 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:27:37.616064 [debug]: /css/style.css
+2025-01-10 07:27:37.616118 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:27:37.616127 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:27:37.616289 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:27:37.616297 [debug]: /js/jquery.js
+2025-01-10 07:27:37.616381 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:27:37.616454 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:27:37.624152 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:27:37.624296 [debug]: /js/bootstrap.min.js
+2025-01-10 07:27:37.624405 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:27:37.624429 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:27:37.624704 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:27:37.624748 [debug]: /js/smoothscroll.js
+2025-01-10 07:27:37.624901 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:27:37.624913 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:27:37.625062 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:27:37.625072 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:27:37.625136 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:27:37.625146 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:27:37.625315 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:27:37.625322 [debug]: /js/wow.min.js
+2025-01-10 07:27:37.625374 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:27:37.625477 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:27:37.626320 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:27:37.626389 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:27:37.626513 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:27:37.626544 [debug]: /js/custom.js
+2025-01-10 07:27:37.626575 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:27:37.626614 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:27:37.626760 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:27:37.626799 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:27:50.513762 [debug]: username = root
+2025-01-10 07:27:50.513815 [debug]: Tag:1
+2025-01-10 07:27:50.513830 [info] : Verify name:root pwd:123456
+2025-01-10 07:27:50.513836 [debug]: SELECT username, password FROM user WHERE username='root' LIMIT 1
+2025-01-10 07:27:50.514419 [debug]: MYSQL ROW: root 123456
+2025-01-10 07:27:50.514507 [debug]: UserVerify success!!
+2025-01-10 07:27:50.514802 [debug]: Body:username=root&password=123456, len:29
+2025-01-10 07:27:50.514837 [debug]: [POST], [/welcome.html], [1.1]
+2025-01-10 07:27:50.514845 [debug]: /welcome.html
+2025-01-10 07:27:50.514892 [debug]: file path /home/snowy/Linux/blog/resources//welcome.html
+2025-01-10 07:27:50.514908 [debug]: filesize:3161, 2  to 3271
+2025-01-10 07:27:50.532477 [debug]: [username=root&password=123456GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:27:50.532592 [debug]: /css/bootstrap.min.css
+2025-01-10 07:27:50.532818 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:27:50.532882 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:27:50.533353 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:27:50.533360 [debug]: /css/animate.css
+2025-01-10 07:27:50.533366 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:27:50.533371 [debug]: /css/magnific-popup.css
+2025-01-10 07:27:50.533418 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:27:50.533428 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:27:50.533820 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:27:50.533825 [debug]: /css/font-awesome.min.css
+2025-01-10 07:27:50.533835 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:27:50.533839 [debug]: /css/style.css
+2025-01-10 07:27:50.533874 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:27:50.533883 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:27:50.534011 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:27:50.534022 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:27:50.534349 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:27:50.535085 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:27:50.535111 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:27:50.534960 [debug]: /images/profile-image.jpg
+2025-01-10 07:27:50.536481 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:27:50.536569 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:27:50.551018 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:27:50.551112 [debug]: /js/jquery.js
+2025-01-10 07:27:50.551169 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:27:50.551185 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:27:50.551718 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:27:50.551731 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:27:50.551764 [debug]: /js/bootstrap.min.js
+2025-01-10 07:27:50.551790 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:27:50.551796 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:27:50.551914 [debug]: /js/smoothscroll.js
+2025-01-10 07:27:50.551988 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:27:50.551998 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:27:50.552051 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:27:50.552057 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:27:50.552095 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:27:50.552101 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:27:50.552410 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:27:50.552421 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:27:50.552681 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:27:50.552900 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:27:50.553740 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:27:50.553898 [debug]: /js/wow.min.js
+2025-01-10 07:27:50.554296 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:27:50.554588 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:27:50.565933 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:27:50.566009 [debug]: /js/custom.js
+2025-01-10 07:27:50.566119 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:27:50.566186 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:27:59.222427 [debug]: [GET], [/index.html], [1.1]
+2025-01-10 07:27:59.222502 [debug]: /index.html
+2025-01-10 07:27:59.222558 [debug]: file path /home/snowy/Linux/blog/resources//index.html
+2025-01-10 07:27:59.222572 [debug]: filesize:3148, 2  to 3258
+2025-01-10 07:27:59.244463 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:27:59.244861 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:27:59.244921 [debug]: /css/animate.css
+2025-01-10 07:27:59.245104 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:27:59.246031 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:27:59.244868 [debug]: /css/bootstrap.min.css
+2025-01-10 07:27:59.246600 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:27:59.246687 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:27:59.247215 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:27:59.247227 [debug]: /css/magnific-popup.css
+2025-01-10 07:27:59.247289 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:27:59.247296 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:27:59.247321 [debug]: /css/font-awesome.min.css
+2025-01-10 07:27:59.247361 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:27:59.247395 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:27:59.247303 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:27:59.249362 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:27:59.249409 [debug]: /images/profile-image.jpg
+2025-01-10 07:27:59.249452 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:27:59.249463 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:27:59.251053 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:27:59.251465 [debug]: /css/style.css
+2025-01-10 07:27:59.251693 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:27:59.251901 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:27:59.256654 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:27:59.256680 [debug]: /js/jquery.js
+2025-01-10 07:27:59.256722 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:27:59.256736 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:27:59.266474 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:27:59.266575 [debug]: /js/bootstrap.min.js
+2025-01-10 07:27:59.266660 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:27:59.266680 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:27:59.266966 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:27:59.266977 [debug]: /js/smoothscroll.js
+2025-01-10 07:27:59.267032 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:27:59.267041 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:27:59.267060 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:27:59.267070 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:27:59.267100 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:27:59.267108 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:27:59.267430 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:27:59.267476 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:27:59.267529 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:27:59.267539 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:27:59.267602 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:27:59.267611 [debug]: /js/wow.min.js
+2025-01-10 07:27:59.267645 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:27:59.267652 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:27:59.270788 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:27:59.270921 [debug]: /js/custom.js
+2025-01-10 07:27:59.271028 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:27:59.271073 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:28:59.311128 [info] : Client[21] quit!
+2025-01-10 07:28:59.311438 [info] : Client[21](192.168.240.1:8462) quit, UserCount:5
+2025-01-10 07:28:59.311491 [info] : Client[25] quit!
+2025-01-10 07:28:59.311590 [info] : Client[25](192.168.240.1:8974) quit, UserCount:4
+2025-01-10 07:28:59.311600 [info] : Client[20] quit!
+2025-01-10 07:30:09.046021 [info] : ========== Server init ==========
+2025-01-10 07:30:09.046033 [info] : Port:1316, OpenLinger: false
+2025-01-10 07:30:09.046037 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-10 07:30:09.046041 [info] : LogSys level: 0
+2025-01-10 07:30:09.046045 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-10 07:30:09.046048 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-10 07:30:09.046053 [info] : ========== Server start ==========
+2025-01-10 07:30:11.332631 [info] : Client[18](192.168.240.1:26385) in, userCount:1
+2025-01-10 07:30:11.332726 [info] : Client[18] in!
+2025-01-10 07:30:11.332746 [info] : Client[20](192.168.240.1:26641) in, userCount:2
+2025-01-10 07:30:11.332782 [info] : Client[20] in!
+2025-01-10 07:30:11.333604 [debug]: [GET], [/index.html], [1.1]
+2025-01-10 07:30:11.333669 [debug]: /index.html
+2025-01-10 07:30:11.333707 [debug]: file path /home/snowy/Linux/blog/resources//index.html
+2025-01-10 07:30:11.333720 [debug]: filesize:3148, 2  to 3258
+2025-01-10 07:30:11.357235 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:30:11.357331 [debug]: /css/bootstrap.min.css
+2025-01-10 07:30:11.357440 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:30:11.357465 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:30:11.359606 [info] : Client[21](192.168.240.1:26897) in, userCount:3
+2025-01-10 07:30:11.359783 [info] : Client[21] in!
+2025-01-10 07:30:11.359803 [info] : Client[23](192.168.240.1:27153) in, userCount:4
+2025-01-10 07:30:11.359812 [info] : Client[23] in!
+2025-01-10 07:30:11.359820 [info] : Client[25](192.168.240.1:27409) in, userCount:5
+2025-01-10 07:30:11.359827 [info] : Client[25] in!
+2025-01-10 07:30:11.359839 [info] : Client[26](192.168.240.1:27665) in, userCount:6
+2025-01-10 07:30:11.359845 [info] : Client[26] in!
+2025-01-10 07:30:11.360274 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:30:11.360295 [debug]: /css/animate.css
+2025-01-10 07:30:11.360315 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:30:11.360324 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:30:11.360667 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:30:11.360678 [debug]: /css/magnific-popup.css
+2025-01-10 07:30:11.360697 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:30:11.360708 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:30:11.361231 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:30:11.361240 [debug]: /css/font-awesome.min.css
+2025-01-10 07:30:11.361257 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:30:11.361264 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:30:11.361283 [debug]: /css/style.css
+2025-01-10 07:30:11.361298 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:30:11.361307 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:30:11.361730 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:30:11.361266 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:30:11.361827 [debug]: /images/profile-image.jpg
+2025-01-10 07:30:11.361920 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:30:11.361954 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:30:11.364510 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:30:11.364604 [debug]: /js/jquery.js
+2025-01-10 07:30:11.364660 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:30:11.364672 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:30:11.393658 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:30:11.393799 [debug]: /js/bootstrap.min.js
+2025-01-10 07:30:11.394566 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:30:11.394591 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:30:11.395223 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:30:11.395268 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:30:11.395331 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:30:11.395340 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:30:11.395598 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:30:11.395613 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:30:11.395713 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:30:11.395725 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:30:11.395807 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:30:11.395813 [debug]: /js/wow.min.js
+2025-01-10 07:30:11.395856 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:30:11.395865 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:30:11.396123 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:30:11.396131 [debug]: /js/custom.js
+2025-01-10 07:30:11.396170 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:30:11.396177 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:30:11.396456 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:30:11.396546 [debug]: /js/smoothscroll.js
+2025-01-10 07:30:11.396684 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:30:11.396712 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:30:11.483279 [debug]: [GET], [/images/favicon.ico], [1.1]
+2025-01-10 07:30:11.483399 [debug]: /images/favicon.ico
+2025-01-10 07:30:11.483509 [debug]: file path /home/snowy/Linux/blog/resources//images/favicon.ico
+2025-01-10 07:30:11.483547 [debug]: filesize:60990, 2  to 61102
+2025-01-10 07:30:12.724839 [debug]: [GET], [/login.html], [1.1]
+2025-01-10 07:30:12.724915 [debug]: /login.html
+2025-01-10 07:30:12.724978 [debug]: file path /home/snowy/Linux/blog/resources//login.html
+2025-01-10 07:30:12.724992 [debug]: filesize:3385, 2  to 3495
+2025-01-10 07:30:12.750360 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:30:12.750524 [debug]: /css/animate.css
+2025-01-10 07:30:12.750647 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:30:12.750714 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:30:12.751509 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:30:12.752025 [debug]: /css/font-awesome.min.css
+2025-01-10 07:30:12.752093 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:30:12.752106 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:30:12.752203 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:30:12.752215 [debug]: /js/jquery.js
+2025-01-10 07:30:12.752312 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:30:12.752328 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:30:12.751648 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:30:12.752419 [debug]: /css/style.css
+2025-01-10 07:30:12.752489 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:30:12.752502 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:30:12.751922 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:30:12.752760 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:30:12.752830 [debug]: /css/magnific-popup.css
+2025-01-10 07:30:12.752843 [debug]: /css/bootstrap.min.css
+2025-01-10 07:30:12.753023 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:30:12.753074 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:30:12.753541 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:30:12.753584 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:30:12.759921 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:30:12.760125 [debug]: /js/bootstrap.min.js
+2025-01-10 07:30:12.760231 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:30:12.760301 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:30:12.763207 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:30:12.763326 [debug]: /js/smoothscroll.js
+2025-01-10 07:30:12.763417 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:30:12.763471 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:30:12.763936 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:30:12.763947 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:30:12.764178 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:30:12.764188 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:30:12.764339 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:30:12.764500 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:30:12.764704 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:30:12.764675 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:30:12.766724 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:30:12.766755 [debug]: /js/wow.min.js
+2025-01-10 07:30:12.766826 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:30:12.766889 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:30:12.767316 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:30:12.767376 [debug]: /js/custom.js
+2025-01-10 07:30:12.767487 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:30:12.767577 [debug]: filesize:1047, 2  to 1164
+2025-01-10 07:30:19.218554 [debug]: username = root
+2025-01-10 07:30:19.218608 [debug]: Tag:1
+2025-01-10 07:30:19.218613 [info] : Verify name:root pwd:123456
+2025-01-10 07:30:19.218618 [debug]: SELECT username, password FROM user WHERE username='root' LIMIT 1
+2025-01-10 07:30:19.219282 [debug]: MYSQL ROW: root 123456
+2025-01-10 07:30:19.219341 [debug]: UserVerify success!!
+2025-01-10 07:30:19.219484 [debug]: Body:username=root&password=123456, len:29
+2025-01-10 07:30:19.219492 [debug]: [POST], [/welcome.html], [1.1]
+2025-01-10 07:30:19.219497 [debug]: /welcome.html
+2025-01-10 07:30:19.219539 [debug]: file path /home/snowy/Linux/blog/resources//welcome.html
+2025-01-10 07:30:19.219554 [debug]: filesize:3161, 2  to 3271
+2025-01-10 07:30:19.238778 [debug]: [username=root&password=123456GET], [/css/bootstrap.min.css], [1.1]
+2025-01-10 07:30:19.238893 [debug]: /css/bootstrap.min.css
+2025-01-10 07:30:19.238984 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-10 07:30:19.239002 [debug]: filesize:121260, 2  to 121372
+2025-01-10 07:30:19.239401 [debug]: [GET], [/css/animate.css], [1.1]
+2025-01-10 07:30:19.239458 [debug]: /css/animate.css
+2025-01-10 07:30:19.239646 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2025-01-10 07:30:19.239653 [debug]: file path /home/snowy/Linux/blog/resources//css/animate.css
+2025-01-10 07:30:19.239729 [debug]: filesize:72922, 2  to 73033
+2025-01-10 07:30:19.239658 [debug]: /css/magnific-popup.css
+2025-01-10 07:30:19.240008 [debug]: file path /home/snowy/Linux/blog/resources//css/magnific-popup.css
+2025-01-10 07:30:19.240104 [debug]: filesize:6951, 2  to 7061
+2025-01-10 07:30:19.240854 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2025-01-10 07:30:19.240983 [debug]: /css/font-awesome.min.css
+2025-01-10 07:30:19.241074 [debug]: file path /home/snowy/Linux/blog/resources//css/font-awesome.min.css
+2025-01-10 07:30:19.241100 [debug]: filesize:27392, 2  to 27503
+2025-01-10 07:30:19.241683 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-10 07:30:19.241694 [debug]: /images/profile-image.jpg
+2025-01-10 07:30:19.241930 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-10 07:30:19.241966 [debug]: filesize:47176, 2  to 47288
+2025-01-10 07:30:19.241078 [debug]: [GET], [/css/style.css], [1.1]
+2025-01-10 07:30:19.242104 [debug]: /css/style.css
+2025-01-10 07:30:19.242194 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-10 07:30:19.242206 [debug]: filesize:9807, 2  to 9917
+2025-01-10 07:30:19.249468 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-10 07:30:19.249524 [debug]: /js/jquery.js
+2025-01-10 07:30:19.249578 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-10 07:30:19.249591 [debug]: filesize:85658, 2  to 85776
+2025-01-10 07:30:19.254421 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-10 07:30:19.254527 [debug]: /js/bootstrap.min.js
+2025-01-10 07:30:19.254585 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-10 07:30:19.254597 [debug]: filesize:36868, 2  to 36986
+2025-01-10 07:30:19.258891 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-10 07:30:19.259051 [debug]: /js/smoothscroll.js
+2025-01-10 07:30:19.259735 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-10 07:30:19.259756 [debug]: filesize:4474, 2  to 4591
+2025-01-10 07:30:19.260232 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-10 07:30:19.260245 [debug]: /js/wow.min.js
+2025-01-10 07:30:19.259535 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-10 07:30:19.259546 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-10 07:30:19.260288 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-10 07:30:19.260296 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-10 07:30:19.260517 [debug]: filesize:7082, 2  to 7199
+2025-01-10 07:30:19.260798 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-10 07:30:19.260827 [debug]: filesize:20932, 2  to 21050
+2025-01-10 07:30:19.261053 [debug]: /js/magnific-popup-options.js
+2025-01-10 07:30:19.261409 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-10 07:30:19.261523 [debug]: filesize:1069, 2  to 1186
+2025-01-10 07:30:19.264814 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-10 07:30:19.264917 [debug]: /js/custom.js
+2025-01-10 07:30:19.265078 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-10 07:30:19.265172 [debug]: filesize:1047, 2  to 1164
