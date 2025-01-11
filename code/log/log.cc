@@ -92,20 +92,35 @@ void Log::write(int level, const char *format,...) {
     {
         std::unique_lock<std::mutex> locker(mtx_);
         lineCount_++;
-        int n = snprintf(buff_.BeginWrite(), 128, "%d-%02d-%02d %02d:%02d:%02d.%06ld ",
+        char tmpBuf[128];
+        int n = snprintf(tmpBuf, sizeof(tmpBuf), "%d-%02d-%02d %02d:%02d:%02d.%06ld ",
                     t.tm_year + 1900, t.tm_mon + 1, t.tm_mday,
                     t.tm_hour, t.tm_min, t.tm_sec, now.tv_usec);
-        buff_.HasWritten(n);
+        assert(n <= buff_.WritableBytes());
+        // buff_.HasWritten(n);
+        buff_.Append(tmpBuf, n);
         AppendLogLevelTitle_(level);    
 
+        char tmpBuf1[buff_.WritableBytes()];
         va_start(vaList, format);
-        int m = vsnprintf(buff_.BeginWrite(), buff_.WritableBytes(), format, vaList);
+        size_t m = vsnprintf(tmpBuf1, buff_.WritableBytes(), format, vaList);
         va_end(vaList);
-        buff_.HasWritten(m);
+
+        // std::cerr << "buff_.WritableBytes() : " << buff_.WritableBytes() << '\n'
+        //             << "m : " << m << '\n';
+        // if(m > buff_.WritableBytes()) {
+        //     std::cerr << tmpBuf1 << '\n';
+        // }
+        // assert(m <= buff_.WritableBytes());
+        
+        m = std::min(m, buff_.WritableBytes());
+        buff_.Append(tmpBuf1, m);
+        // buff_.HasWritten(m);
         buff_.Append("\n\0", 2);
 
         if(isAsync_ && deque_ && !deque_->full()) { // 异步方式（加入阻塞队列中，等待写线程读取日志信息）
             deque_->push_back(buff_.RetrieveAllToStr());
+            assert(buff_.ReadableBytes() == 0);
         } else {    // 同步方式（直接向文件中写入日志信息）
             fputs(buff_.Peek(), fp_);   // 同步就直接写入文件
         }

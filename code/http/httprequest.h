@@ -35,6 +35,8 @@ public:
     std::string GetPost(const std::string& key) const;
     std::string GetPost(const char* key) const;
 
+    std::string search(Buffer& buff, const char* &line);
+
     bool IsKeepAlive() const;
 
 private:

@@ -7,6 +7,9 @@
 #include <vector> //readv
 #include <atomic>
 #include <assert.h>
+#include <unistd.h>
+#include <fcntl.h>
+
 class Buffer {
 public:
     Buffer(int initBuffSize = 1024);
@@ -37,6 +40,10 @@ public:
     ssize_t ReadFd(int fd, int* Errno);
     ssize_t WriteFd(int fd, int* Errno);
 
+    size_t size() const;
+    const char* End() const;
+    const bool Asc() const;
+    const char* Begin() const;
 private:
     char* BeginPtr_();
     const char* BeginPtr_() const;

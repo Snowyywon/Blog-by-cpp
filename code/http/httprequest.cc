@@ -52,6 +52,34 @@ void HttpRequest::Init() {
     post_.clear();
 }
 
+std::string  HttpRequest::search(Buffer& buff, const char* &line) {
+    const char CRLF[] = "\r\n";
+    if(buff.Asc()) {
+        line = std::search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF + 2);
+        assert(line >= buff.Peek());
+        if(buff.Peek() == line) return "";
+        std::string s(buff.Peek(), line);
+        return s;
+    }
+    else {
+        line = std::search(buff.Peek(), buff.End(), CRLF, CRLF + 2);
+        if(line == buff.End()) line = std::search(buff.Begin(), buff.BeginWriteConst(), CRLF, CRLF + 2);
+        assert(line >= buff.Begin());
+        if(line == buff.BeginWrite()) return "";
+
+        if(line >= buff.Peek()) {
+            std::string s(buff.Peek(), line);
+            return s;
+        }
+        else {
+            std::string s(buff.Peek(), buff.End()), 
+                    s2(buff.Begin(), line);
+            s += s2;
+            return s;
+        }
+    }
+}
+
 bool HttpRequest::parse(Buffer& buff) {
     const char CRLF[] = "\r\n";
     if(buff.ReadableBytes() <= 0) {
@@ -59,9 +87,12 @@ bool HttpRequest::parse(Buffer& buff) {
     }
 
     while(buff.ReadableBytes() && state_ != FINISH) {
-        const char* lastEnd = std::search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF + 2);
-        std::string s(buff.Peek(), lastEnd);
+        const char* lastEnd = nullptr;
+        std::string s = search(buff, lastEnd);
+        // const char* lastEnd = std::search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF + 2);
+        // std::string s(buff.Peek(), lastEnd);
         LOG_DEBUG("%s",s.c_str());
+        std::cerr << "string is " << s.c_str() << '\n';
         switch(state_) {
             case REQUEST_LINE:
                 if(!ParseRequestLine_(s)) {
