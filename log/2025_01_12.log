@@ -1,0 +1,7 @@
+2025-01-12 14:55:38.791871 [info] : ========== Server init ==========
+2025-01-12 14:55:38.791900 [info] : Port:1316, OpenLinger: false
+2025-01-12 14:55:38.791906 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-12 14:55:38.791910 [info] : LogSys level: 0
+2025-01-12 14:55:38.791913 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-12 14:55:38.791917 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-12 14:55:38.792110 [info] : Server port:1316

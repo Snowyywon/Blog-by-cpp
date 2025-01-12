@@ -1,8 +1,18 @@
 #include "./log.h"
 
-Log* Log::Instance() {
-    static Log log;
-    return &log;
+std::mutex Log::mtx_init;
+std::shared_ptr<Log> Log::single = nullptr;
+std::atomic<bool> Log::log_init{false};
+
+std::shared_ptr<Log> Log::Instance() {
+    if(!log_init.load(std::memory_order_acquire)) {
+        std::lock_guard<std::mutex> lock_(mtx_init);
+        if(!log_init.load(std::memory_order_relaxed)) {
+            single = std::shared_ptr<Log>(new Log);
+            log_init.store(true, std::memory_order_release);
+        }
+    }
+    return single;
 }
 
 Log::Log() {

@@ -9,6 +9,8 @@
 #include <stdarg.h>           // vastart va_end
 #include <assert.h>
 #include <sys/stat.h>         //mkdir
+#include <atomic>
+#include <memory>  
 #include "blockqueue.h"
 #include "../buffer/buffer.h"
 
@@ -19,7 +21,7 @@ public:
                 const char* suffix =".log",
                 int maxQueueCapacity = 1024);
 
-    static Log* Instance();
+    static std::shared_ptr<Log> Instance();
     // 异步写日志公有方法，调用私有方法asyncWrite
     static void FlushLogThread();   
 
@@ -31,11 +33,12 @@ public:
     int GetLevel();
     void SetLevel(int level);
     bool IsOpen() { return isOpen_; }
-    
+    virtual ~Log();
+
 private:
     Log();
     void AppendLogLevelTitle_(int level);
-    virtual ~Log();
+    
     // 异步写日志方法
     void AsyncWrite_(); 
 
@@ -43,6 +46,9 @@ private:
     static const int LOG_PATH_LEN = 256;
     static const int LOG_NAME_LEN = 256;
     static const int MAX_LINES = 50000;
+    static std::mutex mtx_init;
+    static std::atomic<bool> log_init;
+    static std::shared_ptr<Log> single;
 
     const char* path_;
     const char* suffix_;
@@ -62,11 +68,12 @@ private:
     std::unique_ptr<BlockDeque<std::string>> deque_; 
     std::unique_ptr<std::thread> writeThread_;
     std::mutex mtx_;
+    
 };
 
 #define LOG_BASE(level, format, ...) \
     do {\
-        Log* log = Log::Instance();\
+        std::shared_ptr<Log> log = Log::Instance();\
         if (log->IsOpen() && log->GetLevel() <= level) {\
             log->write(level, format, ##__VA_ARGS__); \
             log->flush();\

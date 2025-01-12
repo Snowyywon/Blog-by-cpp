@@ -20,8 +20,6 @@ WebServer::WebServer(
     SqlConnPool::Instance()->Init("localhost", sqlPort, sqlUser, sqlPwd, dbName, connPoolNum);  // 连接池单例的初始化
     // 初始化事件和初始化socket(监听)
     InitEventMode_(trigMode);
-    if(!InitSocket_()) { isClose_ = true;}
-
     // 是否打开日志标志
     if(openLog) {
         Log::Instance()->init(logLevel, "./log", ".log", logQueSize);
@@ -37,6 +35,8 @@ WebServer::WebServer(
             LOG_INFO("SqlConnPool num: %d, ThreadPool num: %d", connPoolNum, threadNum);
         }
     }
+
+    if(!InitSocket_()) { isClose_ = true;}
 }
 
 WebServer::~WebServer() {

@@ -92,7 +92,7 @@ bool HttpRequest::parse(Buffer& buff) {
         // const char* lastEnd = std::search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF + 2);
         // std::string s(buff.Peek(), lastEnd);
         LOG_DEBUG("%s",s.c_str());
-        std::cerr << "string is " << s.c_str() << '\n';
+        // std::cerr << "string is " << s.c_str() << '\n';
         switch(state_) {
             case REQUEST_LINE:
                 if(!ParseRequestLine_(s)) {
