@@ -1,0 +1,343 @@
+2025-01-13 08:17:34.251606 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-13 08:17:34.251641 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-13 08:17:34.251667 [info] : Server port:1316
+2025-01-13 08:17:34.251667 [info] : Server port:1316
+2025-01-13 08:17:34.251748 [info] : ========== Server start ==========
+2025-01-13 08:17:34.251748 [info] : ========== Server start ==========
+2025-01-13 08:17:38.217065 [info] : Client[18](192.168.240.1:57729) in, userCount:1
+2025-01-13 08:17:38.217149 [info] : Client[18] in!
+2025-01-13 08:17:38.289871 [info] : Client[20](192.168.240.1:58241) in, userCount:2
+2025-01-13 08:17:38.289961 [info] : Client[20] in!
+2025-01-13 08:17:38.289961 [info] : Client[20] in!
+2025-01-13 08:17:38.290885 [debug]: filesize:3148, 2  to 3258
+2025-01-13 08:17:38.328921 [debug]: 
+2025-01-13 08:17:38.330146 [info] : Client[26] in!
+2025-01-13 08:17:38.330741 [debug]: GET /css/magnific-popup.css HTTP/1.1
+2025-01-13 08:17:38.331126 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:38.334352 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:38.334397 [debug]: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2025-01-13 08:17:38.334532 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:17:38.334872 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:38.334953 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:38.335008 [debug]: 
+2025-01-13 08:17:38.335008 [debug]: 
+2025-01-13 08:17:38.335117 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-13 08:17:38.335117 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-13 08:17:38.335183 [debug]: /images/profile-image.jpg
+2025-01-13 08:17:38.335508 [debug]: filesize:47176, 2  to 47288
+2025-01-13 08:17:38.344617 [debug]: GET /js/jquery.js HTTP/1.1
+2025-01-13 08:17:38.344847 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:38.345114 [debug]: Connection: keep-alive
+2025-01-13 08:17:38.345114 [debug]: Connection: keep-alive
+2025-01-13 08:17:38.345187 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:38.345229 [debug]: Accept: */*
+2025-01-13 08:17:38.345229 [debug]: Accept: */*
+2025-01-13 08:17:38.345275 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:17:38.345275 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:17:38.345337 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:38.345337 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:38.345433 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:38.345598 [debug]: 
+2025-01-13 08:17:38.345664 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-13 08:17:38.345707 [debug]: /js/jquery.js
+2025-01-13 08:17:38.345707 [debug]: /js/jquery.js
+2025-01-13 08:17:38.345839 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-13 08:17:38.345839 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-13 08:17:38.345887 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:17:38.345887 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:17:38.367019 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:17:38.370245 [debug]: filesize:1047, 2  to 1164
+2025-01-13 08:17:38.370016 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:17:38.370670 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:38.370670 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:38.370885 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:38.370934 [debug]: 
+2025-01-13 08:17:38.371089 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-13 08:17:38.371089 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-13 08:17:38.371123 [debug]: /js/wow.min.js
+2025-01-13 08:17:38.371123 [debug]: /js/wow.min.js
+2025-01-13 08:17:38.371345 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-13 08:17:38.371362 [debug]: filesize:7082, 2  to 7199
+2025-01-13 08:17:40.446828 [debug]: filesize:3385, 2  to 3495
+2025-01-13 08:17:40.467828 [debug]: 
+2025-01-13 08:17:40.467851 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2025-01-13 08:17:40.467911 [debug]: /css/bootstrap.min.css
+2025-01-13 08:17:40.468016 [debug]: filesize:72922, 2  to 73033
+2025-01-13 08:17:40.468946 [debug]: Connection: keep-alive
+2025-01-13 08:17:40.469395 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:40.469479 [debug]: Accept: */*
+2025-01-13 08:17:40.469540 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:40.469592 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:40.469642 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:40.469642 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:40.469692 [debug]: 
+2025-01-13 08:17:40.469739 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-13 08:17:40.469751 [debug]: /js/jquery.js
+2025-01-13 08:17:40.469751 [debug]: /js/jquery.js
+2025-01-13 08:17:40.471690 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-13 08:17:40.471690 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-13 08:17:40.471803 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:17:40.476926 [debug]: GET /js/bootstrap.min.js HTTP/1.1
+2025-01-13 08:17:40.476926 [debug]: GET /js/bootstrap.min.js HTTP/1.1
+2025-01-13 08:17:40.477140 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:40.477186 [debug]: Connection: keep-alive
+2025-01-13 08:17:40.477186 [debug]: Connection: keep-alive
+2025-01-13 08:17:40.477215 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:40.477268 [debug]: Accept: */*
+2025-01-13 08:17:40.477268 [debug]: Accept: */*
+2025-01-13 08:17:40.477338 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:40.477447 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:40.477447 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:40.477552 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:40.477706 [debug]: 
+2025-01-13 08:17:40.477706 [debug]: 
+2025-01-13 08:17:40.477779 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-13 08:17:40.477779 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-13 08:17:40.478698 [debug]: filesize:1069, 2  to 1186
+2025-01-13 08:17:40.479218 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-13 08:17:40.477813 [debug]: /js/bootstrap.min.js
+2025-01-13 08:17:40.479731 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-13 08:17:40.479296 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-13 08:17:40.479296 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-13 08:17:40.479942 [debug]: filesize:7082, 2  to 7199
+2025-01-13 08:17:40.479813 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:17:40.490248 [debug]: filesize:1047, 2  to 1164
+2025-01-13 08:17:45.534287 [debug]: POST /login HTTP/1.1
+2025-01-13 08:17:45.534503 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.534503 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.534567 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.534636 [debug]: Content-Length: 29
+2025-01-13 08:17:45.534988 [debug]: Cache-Control: max-age=0
+2025-01-13 08:17:45.534988 [debug]: Cache-Control: max-age=0
+2025-01-13 08:17:45.535055 [debug]: Origin: http://192.168.240.130:1316
+2025-01-13 08:17:45.535055 [debug]: Origin: http://192.168.240.130:1316
+2025-01-13 08:17:45.535108 [debug]: Content-Type: application/x-www-form-urlencoded
+2025-01-13 08:17:45.535191 [debug]: Upgrade-Insecure-Requests: 1
+2025-01-13 08:17:45.535244 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.535244 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.535301 [debug]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-01-13 08:17:45.535354 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.535433 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.535433 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.535489 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.535545 [debug]: 
+2025-01-13 08:17:45.535595 [debug]: username=root&password=123456
+2025-01-13 08:17:45.535609 [debug]: username = root
+2025-01-13 08:17:45.535696 [debug]: Tag:1
+2025-01-13 08:17:45.535696 [debug]: Tag:1
+2025-01-13 08:17:45.535766 [info] : Verify name:root pwd:123456
+2025-01-13 08:17:45.535772 [debug]: SELECT username, password FROM user WHERE username='root' LIMIT 1
+2025-01-13 08:17:45.535772 [debug]: SELECT username, password FROM user WHERE username='root' LIMIT 1
+2025-01-13 08:17:45.546463 [debug]: MYSQL ROW: root 123456
+2025-01-13 08:17:45.546524 [debug]: UserVerify success!!
+2025-01-13 08:17:45.546642 [debug]: Body:username=root&password=123456, len:29
+2025-01-13 08:17:45.546642 [debug]: Body:username=root&password=123456, len:29
+2025-01-13 08:17:45.546729 [debug]: [POST], [/welcome.html], [1.1]
+2025-01-13 08:17:45.546729 [debug]: [POST], [/welcome.html], [1.1]
+2025-01-13 08:17:45.546812 [debug]: /welcome.html
+2025-01-13 08:17:45.546944 [debug]: file path /home/snowy/Linux/blog/resources//welcome.html
+2025-01-13 08:17:45.546944 [debug]: file path /home/snowy/Linux/blog/resources//welcome.html
+2025-01-13 08:17:45.546975 [debug]: filesize:3161, 2  to 3271
+2025-01-13 08:17:45.560053 [debug]: username=root&password=123456GET /css/bootstrap.min.css HTTP/1.1
+2025-01-13 08:17:45.560382 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.560382 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.560461 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.560517 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.560570 [debug]: Accept: text/css,*/*;q=0.1
+2025-01-13 08:17:45.560620 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.560669 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.560669 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.560718 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.560767 [debug]: 
+2025-01-13 08:17:45.560815 [debug]: [username=root&password=123456GET], [/css/bootstrap.min.css], [1.1]
+2025-01-13 08:17:45.560827 [debug]: /css/bootstrap.min.css
+2025-01-13 08:17:45.560827 [debug]: /css/bootstrap.min.css
+2025-01-13 08:17:45.560980 [debug]: file path /home/snowy/Linux/blog/resources//css/bootstrap.min.css
+2025-01-13 08:17:45.561005 [debug]: filesize:121260, 2  to 121372
+2025-01-13 08:17:45.564280 [debug]: file path /home/snowy/Linux/blog/resources//css/style.css
+2025-01-13 08:17:45.564567 [debug]: filesize:72922, 2  to 73033
+2025-01-13 08:17:45.563776 [debug]: GET /images/profile-image.jpg HTTP/1.1
+2025-01-13 08:17:45.564826 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.564862 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.564862 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.564892 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.564925 [debug]: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2025-01-13 08:17:45.564956 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.564986 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.565019 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.565049 [debug]: 
+2025-01-13 08:17:45.565086 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-13 08:17:45.565117 [debug]: /images/profile-image.jpg
+2025-01-13 08:17:45.565117 [debug]: /images/profile-image.jpg
+2025-01-13 08:17:45.565464 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-13 08:17:45.565464 [debug]: file path /home/snowy/Linux/blog/resources//images/profile-image.jpg
+2025-01-13 08:17:45.565499 [debug]: filesize:47176, 2  to 47288
+2025-01-13 08:17:45.565499 [debug]: filesize:47176, 2  to 47288
+2025-01-13 08:17:45.567757 [debug]: 
+2025-01-13 08:17:45.567827 [debug]: [GET], [/js/jquery.js], [1.1]
+2025-01-13 08:17:45.568002 [debug]: /css/magnific-popup.css
+2025-01-13 08:17:45.568030 [debug]: /js/jquery.js
+2025-01-13 08:17:45.568296 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.js
+2025-01-13 08:17:45.568437 [debug]: filesize:6951, 2  to 7061
+2025-01-13 08:17:45.568444 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:17:45.568444 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:17:45.575890 [debug]: GET /js/smoothscroll.js HTTP/1.1
+2025-01-13 08:17:45.576106 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.576545 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.576642 [debug]: filesize:4474, 2  to 4591
+2025-01-13 08:17:45.576770 [debug]: /js/bootstrap.min.js
+2025-01-13 08:17:45.576849 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-13 08:17:45.576869 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:17:45.576869 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:17:45.582110 [debug]: GET /js/jquery.magnific-popup.min.js HTTP/1.1
+2025-01-13 08:17:45.582315 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.582388 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.582388 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.582454 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.582454 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.582510 [debug]: Accept: */*
+2025-01-13 08:17:45.582560 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.582610 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.582659 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.582708 [debug]: 
+2025-01-13 08:17:45.582755 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2025-01-13 08:17:45.582767 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-13 08:17:45.582767 [debug]: /js/jquery.magnific-popup.min.js
+2025-01-13 08:17:45.582951 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-13 08:17:45.582951 [debug]: file path /home/snowy/Linux/blog/resources//js/jquery.magnific-popup.min.js
+2025-01-13 08:17:45.582976 [debug]: filesize:20932, 2  to 21050
+2025-01-13 08:17:45.583007 [debug]: GET /js/magnific-popup-options.js HTTP/1.1
+2025-01-13 08:17:45.583130 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:17:45.583231 [debug]: Connection: keep-alive
+2025-01-13 08:17:45.583297 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:17:45.583356 [debug]: Accept: */*
+2025-01-13 08:17:45.583405 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.583510 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.583510 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.583566 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.583615 [debug]: 
+2025-01-13 08:17:45.583663 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-13 08:17:45.583675 [debug]: /js/magnific-popup-options.js
+2025-01-13 08:17:45.583675 [debug]: /js/magnific-popup-options.js
+2025-01-13 08:17:45.583882 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-13 08:17:45.583882 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-13 08:17:45.583922 [debug]: filesize:1069, 2  to 1186
+2025-01-13 08:17:45.583922 [debug]: filesize:1069, 2  to 1186
+2025-01-13 08:17:45.584987 [debug]: filesize:7082, 2  to 7199
+2025-01-13 08:17:45.585071 [debug]: Accept: */*
+2025-01-13 08:17:45.585137 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.585137 [debug]: Referer: http://192.168.240.130:1316/login
+2025-01-13 08:17:45.585201 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:17:45.585282 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:17:45.585331 [debug]: 
+2025-01-13 08:17:45.585384 [debug]: /js/custom.js
+2025-01-13 08:17:45.585453 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-13 08:17:45.585453 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-13 08:18:00.171395 [info] : LogSys level: 0
+2025-01-13 08:18:00.171404 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-13 08:18:00.171432 [info] : Server port:1316
+2025-01-13 08:18:00.171545 [info] : ========== Server start ==========
+2025-01-13 08:18:00.171545 [info] : ========== Server start ==========
+2025-01-13 08:18:04.169842 [info] : Client[18](192.168.240.1:60801) in, userCount:1
+2025-01-13 08:18:04.169940 [info] : Client[18] in!
+2025-01-13 08:18:04.169940 [info] : Client[18] in!
+2025-01-13 08:18:04.260010 [debug]: filesize:3148, 2  to 3258
+2025-01-13 08:18:04.264222 [info] : Client[20](192.168.240.1:61057) in, userCount:2
+2025-01-13 08:18:04.264325 [info] : Client[20] in!
+2025-01-13 08:18:04.264325 [info] : Client[20] in!
+2025-01-13 08:18:04.272265 [debug]: filesize:121260, 2  to 121372
+2025-01-13 08:18:04.279018 [debug]: filesize:72922, 2  to 73033
+2025-01-13 08:18:04.279963 [debug]: filesize:6951, 2  to 7061
+2025-01-13 08:18:04.281679 [debug]: filesize:9807, 2  to 9917
+2025-01-13 08:18:04.281973 [debug]: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2025-01-13 08:18:04.282252 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.282252 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.282464 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.282558 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.282558 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.282615 [debug]: 
+2025-01-13 08:18:04.282615 [debug]: 
+2025-01-13 08:18:04.282672 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2025-01-13 08:18:04.282680 [debug]: /images/profile-image.jpg
+2025-01-13 08:18:04.284087 [debug]: filesize:85658, 2  to 85776
+2025-01-13 08:18:04.292233 [debug]: GET /js/bootstrap.min.js HTTP/1.1
+2025-01-13 08:18:04.292490 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:18:04.292572 [debug]: Connection: keep-alive
+2025-01-13 08:18:04.292633 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.292633 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.292694 [debug]: Accept: */*
+2025-01-13 08:18:04.292761 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.292830 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.292899 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.292899 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.292971 [debug]: 
+2025-01-13 08:18:04.292971 [debug]: 
+2025-01-13 08:18:04.293040 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2025-01-13 08:18:04.293112 [debug]: GET /js/smoothscroll.js HTTP/1.1
+2025-01-13 08:18:04.293255 [debug]: Host: 192.168.240.130:1316
+2025-01-13 08:18:04.293336 [debug]: Connection: keep-alive
+2025-01-13 08:18:04.293514 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.293514 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.293591 [debug]: Accept: */*
+2025-01-13 08:18:04.293655 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.293724 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.293724 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.293787 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.293868 [debug]: 
+2025-01-13 08:18:04.293868 [debug]: 
+2025-01-13 08:18:04.294114 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-13 08:18:04.294114 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2025-01-13 08:18:04.294131 [debug]: /js/smoothscroll.js
+2025-01-13 08:18:04.294131 [debug]: /js/smoothscroll.js
+2025-01-13 08:18:04.294379 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-13 08:18:04.294379 [debug]: file path /home/snowy/Linux/blog/resources//js/smoothscroll.js
+2025-01-13 08:18:04.293071 [debug]: /js/bootstrap.min.js
+2025-01-13 08:18:04.293071 [debug]: /js/bootstrap.min.js
+2025-01-13 08:18:04.294509 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-13 08:18:04.294509 [debug]: file path /home/snowy/Linux/blog/resources//js/bootstrap.min.js
+2025-01-13 08:18:04.294595 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:18:04.294595 [debug]: filesize:36868, 2  to 36986
+2025-01-13 08:18:04.294410 [debug]: filesize:4474, 2  to 4591
+2025-01-13 08:18:04.294410 [debug]: filesize:4474, 2  to 4591
+2025-01-13 08:18:04.299376 [debug]: Connection: keep-alive
+2025-01-13 08:18:04.299404 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.299666 [debug]: filesize:20932, 2  to 21050
+2025-01-13 08:18:04.299565 [debug]: Accept: */*
+2025-01-13 08:18:04.299565 [debug]: Accept: */*
+2025-01-13 08:18:04.299830 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.299830 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.299900 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.299966 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.299966 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.300023 [debug]: 
+2025-01-13 08:18:04.300023 [debug]: 
+2025-01-13 08:18:04.300075 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-13 08:18:04.300075 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2025-01-13 08:18:04.300089 [debug]: /js/magnific-popup-options.js
+2025-01-13 08:18:04.300206 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-13 08:18:04.300206 [debug]: file path /home/snowy/Linux/blog/resources//js/magnific-popup-options.js
+2025-01-13 08:18:04.300226 [debug]: filesize:1069, 2  to 1186
+2025-01-13 08:18:04.299061 [debug]: Connection: keep-alive
+2025-01-13 08:18:04.300994 [debug]: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13 08:18:04.301249 [debug]: Accept: */*
+2025-01-13 08:18:04.301249 [debug]: Accept: */*
+2025-01-13 08:18:04.301386 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.301462 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.301530 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.302597 [debug]: Accept: */*
+2025-01-13 08:18:04.302597 [debug]: Accept: */*
+2025-01-13 08:18:04.302813 [debug]: Referer: http://192.168.240.130:1316/
+2025-01-13 08:18:04.302865 [debug]: Accept-Encoding: gzip, deflate
+2025-01-13 08:18:04.302898 [debug]: Accept-Language: zh-CN,zh;q=0.9
+2025-01-13 08:18:04.302943 [debug]: 
+2025-01-13 08:18:04.303014 [debug]: [GET], [/js/custom.js], [1.1]
+2025-01-13 08:18:04.303043 [debug]: /js/custom.js
+2025-01-13 08:18:04.303043 [debug]: /js/custom.js
+2025-01-13 08:18:04.303862 [debug]: file path /home/snowy/Linux/blog/resources//js/custom.js
+2025-01-13 08:18:04.303894 [debug]: filesize:1047, 2  to 1164
+2025-01-13 08:18:04.303894 [debug]: filesize:1047, 2  to 1164
+2025-01-13 08:18:04.304021 [debug]: 
+2025-01-13 08:18:04.304078 [debug]: [GET], [/js/wow.min.js], [1.1]
+2025-01-13 08:18:04.304146 [debug]: /js/wow.min.js
+2025-01-13 08:18:04.304227 [debug]: file path /home/snowy/Linux/blog/resources//js/wow.min.js
+2025-01-13 08:18:04.304247 [debug]: filesize:7082, 2  to 7199
