@@ -1,0 +1,35 @@
+2025-01-15 14:03:12.596488 [info] : ========== Server init ==========
+2025-01-15 14:03:12.596504 [info] : Port:1316, OpenLinger: false
+2025-01-15 14:03:12.596508 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-15 14:03:12.596512 [info] : LogSys level: 1
+2025-01-15 14:03:12.596515 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-15 14:03:12.596519 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-15 14:03:12.596543 [info] : Server port:1316
+2025-01-15 14:03:12.596547 [info] : ========== Server start ==========
+2025-01-15 14:03:14.263332 [info] : Client[18] in!
+2025-01-15 14:03:14.263601 [info] : Client[20](192.168.240.1:8817) in, userCount:2
+2025-01-15 14:03:14.263611 [info] : Client[20] in!
+2025-01-15 14:03:14.282716 [info] : Client[21](192.168.240.1:9073) in, userCount:3
+2025-01-15 14:03:14.282793 [info] : Client[21] in!
+2025-01-15 14:03:14.287722 [info] : Client[23] in!
+2025-01-15 14:03:14.290186 [info] : Client[25](192.168.240.1:9585) in, userCount:5
+2025-01-15 14:03:14.290285 [info] : Client[25] in!
+2025-01-15 14:03:14.295326 [info] : Client[26](192.168.240.1:9841) in, userCount:6
+2025-01-15 14:03:14.295360 [info] : Client[26] in!
+2025-01-15 14:03:23.563913 [info] : Verify name:root pwd:123456
+2025-01-15 14:52:47.718436 [info] : Port:1316, OpenLinger: false
+2025-01-15 14:52:47.718449 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-01-15 14:52:47.718452 [info] : LogSys level: 1
+2025-01-15 14:52:47.718455 [info] : srcDir: /home/snowy/Linux/blog/resources/
+2025-01-15 14:52:47.718458 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2025-01-15 14:52:47.718488 [info] : Server port:1316
+2025-01-15 14:52:47.718492 [info] : ========== Server start ==========
+2025-01-15 14:52:52.094254 [info] : Client[18] in!
+2025-01-15 14:52:52.170760 [info] : Client[20] in!
+2025-01-15 14:52:52.195254 [info] : Client[21](192.168.240.1:57437) in, userCount:3
+2025-01-15 14:52:52.195280 [info] : Client[21] in!
+2025-01-15 14:52:52.195339 [info] : Client[23](192.168.240.1:57693) in, userCount:4
+2025-01-15 14:52:52.195478 [info] : Client[23] in!
+2025-01-15 14:52:52.195491 [info] : Client[25](192.168.240.1:57949) in, userCount:5
+2025-01-15 14:52:52.195498 [info] : Client[25] in!
+2025-01-15 14:52:52.232124 [info] : Client[26](192.168.240.1:58205) in, userCount:6
