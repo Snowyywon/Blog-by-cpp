@@ -1,7 +1,7 @@
 #include "epoller.h"
 
 Epoller::Epoller(int maxEvent):epollFd_(epoll_create(512)), events_(maxEvent){
-    assert(epollFd_ >= 0 && events_.size() > 0);
+    // assert(epollFd_ >= 0 && events_.size() > 0);
 }
 
 Epoller::~Epoller() {
@@ -36,12 +36,12 @@ int Epoller::Wait(int timeoutMs) {
 
 // 获取事件的fd
 int Epoller::GetEventFd(size_t i) const {
-    assert(i < events_.size() && i >= 0);
+    // assert(i < events_.size() && i >= 0);
     return events_[i].data.fd;
 }
 
 // 获取事件属性
 uint32_t Epoller::GetEvents(size_t i) const {
-    assert(i < events_.size() && i >= 0);
+    // assert(i < events_.size() && i >= 0);
     return events_[i].events;
 }

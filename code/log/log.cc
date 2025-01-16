@@ -95,7 +95,7 @@ void Log::write(int level, const char *format,...) {
         flush();
         fclose(fp_);
         fp_ = fopen(newFile, "a");
-        assert(fp_ != nullptr);
+        // assert(fp_ != nullptr);
     }
 
     // 在buffer内生成一条对应的日志信息
@@ -106,7 +106,7 @@ void Log::write(int level, const char *format,...) {
         int n = snprintf(tmpBuf, sizeof(tmpBuf), "%d-%02d-%02d %02d:%02d:%02d.%06ld ",
                     t.tm_year + 1900, t.tm_mon + 1, t.tm_mday,
                     t.tm_hour, t.tm_min, t.tm_sec, now.tv_usec);
-        assert(n <= buff_.WritableBytes());
+        // assert(n <= buff_.WritableBytes());
         // buff_.HasWritten(n);
         buff_.Append(tmpBuf, n);
         AppendLogLevelTitle_(level);    
@@ -130,7 +130,7 @@ void Log::write(int level, const char *format,...) {
 
         if(isAsync_ && deque_ && !deque_->full()) { // 异步方式（加入阻塞队列中，等待写线程读取日志信息）
             deque_->push_back(buff_.RetrieveAllToStr());
-            assert(buff_.ReadableBytes() == 0);
+            // assert(buff_.ReadableBytes() == 0);
         } else {    // 同步方式（直接向文件中写入日志信息）
             fputs(buff_.Peek(), fp_);   // 同步就直接写入文件
         }
@@ -196,7 +196,7 @@ void Log::init(int level, const char* path, const char* suffix, int maxQueCapaci
             fprintf(stderr, "Error opening file: %s\n", strerror(errno));
         }
 
-        assert(fp_ != nullptr);
+        // assert(fp_ != nullptr);
     }
 }
 

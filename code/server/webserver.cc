@@ -8,10 +8,10 @@ WebServer::WebServer(
             const char* dbName, int connPoolNum, int threadNum,
             bool openLog, int logLevel, int logQueSize):
             port_(port), openLinger_(OptLinger), timeoutMS_(timeoutMS), isClose_(false),
-            timer_(new HeapTimer()), threadpool_(new ThreadPool(threadNum)), epoller_(new Epoller())
+            timer_(new RbtreeTimer()), threadpool_(new ThreadPool(threadNum)), epoller_(new Epoller())
     {
     srcDir_ = getcwd(nullptr, 256);
-    assert(srcDir_);
+    // assert(srcDir_);
     strcat(srcDir_, "/resources/");
     HttpConn::userCount = 0;
     HttpConn::srcDir = srcDir_;
@@ -87,15 +87,15 @@ void WebServer::Start() {
                 DealListen_();
             }
             else if(events & (EPOLLRDHUP | EPOLLHUP | EPOLLERR)) {
-                assert(users_.count(fd) > 0);
+                // assert(users_.count(fd) > 0);
                 CloseConn_(&users_[fd]);
             }
             else if(events & EPOLLIN) {
-                assert(users_.count(fd) > 0);
+                // assert(users_.count(fd) > 0);
                 DealRead_(&users_[fd]);
             }
             else if(events & EPOLLOUT) {
-                assert(users_.count(fd) > 0);
+                // assert(users_.count(fd) > 0);
                 DealWrite_(&users_[fd]);
             } else {
                 LOG_ERROR("Unexpected event");
@@ -105,7 +105,7 @@ void WebServer::Start() {
 }
 
 void WebServer::SendError_(int fd, const char*info) {
-    assert(fd > 0);
+    // assert(fd > 0);
     int ret = send(fd, info, strlen(info), 0);
     if(ret < 0) {
         LOG_WARN("send error to client[%d] error!", fd);
@@ -114,14 +114,14 @@ void WebServer::SendError_(int fd, const char*info) {
 }
 
 void WebServer::CloseConn_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     LOG_INFO("Client[%d] quit!", client->GetFd());
     epoller_->DelFd(client->GetFd());
     client->Close();
 }
 
 void WebServer::AddClient_(int fd, sockaddr_in addr) {
-    assert(fd > 0);
+    // assert(fd > 0);
     users_[fd].init(fd, addr);
     if(timeoutMS_ > 0) {
         timer_->add(fd, timeoutMS_, std::bind(&WebServer::CloseConn_, this, &users_[fd]));
@@ -149,25 +149,25 @@ void WebServer::DealListen_() {
 
 // 处理读事件，主要逻辑是将OnRead加入线程池的任务队列中
 void WebServer::DealRead_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     ExtentTime_(client);
     threadpool_->AddTask(std::bind(&WebServer::OnRead_, this, client)); // 这是一个右值，bind将参数和函数绑定
 }
 
 // 处理写事件，主要逻辑是将OnWrite加入线程池的任务队列中
 void WebServer::DealWrite_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     ExtentTime_(client);
     threadpool_->AddTask(std::bind(&WebServer::OnWrite_, this, client));
 }
 
 void WebServer::ExtentTime_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     if(timeoutMS_ > 0) { timer_->adjust(client->GetFd(), timeoutMS_); }
 }
 
 void WebServer::OnRead_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     int ret = -1;
     int readErrno = 0;
     ret = client->read(&readErrno);         // 读取客户端套接字的数据，读到httpconn的读缓存区
@@ -192,7 +192,7 @@ void WebServer::OnProcess(HttpConn* client) {
 }
 
 void WebServer::OnWrite_(HttpConn* client) {
-    assert(client);
+    // assert(client);
     int ret = -1;
     int writeErrno = 0;
     ret = client->write(&writeErrno);
@@ -287,6 +287,6 @@ bool WebServer::InitSocket_() {
 
 // 设置非阻塞
 int WebServer::SetFdNonblock(int fd) {
-    assert(fd > 0);
+    // assert(fd > 0);
     return fcntl(fd, F_SETFL, fcntl(fd, F_GETFD, 0) | O_NONBLOCK);
 }

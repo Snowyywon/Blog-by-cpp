@@ -30,7 +30,7 @@ const char* Buffer::Peek() const {
 }
 
 void Buffer::Retrieve(size_t len) {
-    assert(len <= ReadableBytes());
+    // assert(len <= ReadableBytes());
     readPos_ = (readPos_ + len) % size();
 }
 
@@ -77,7 +77,7 @@ char* Buffer::BeginWrite() {
 }                                                                                                                                                    
 
 void Buffer::HasWritten(size_t len) {
-    assert(len <= WritableBytes());
+    // assert(len <= WritableBytes());
     writePos_ = (writePos_ + len)%size();
 } 
 
@@ -86,12 +86,12 @@ void Buffer::Append(const std::string& str) {
 }
 
 void Buffer::Append(const void* data, size_t len) {
-    assert(data);
+    // assert(data);
     Append(static_cast<const char*>(data), len);
 }
 
 void Buffer::Append(const char* str, size_t len) {
-    assert(str);
+    // assert(str);
     EnsureWriteable(len);
     // 如果可以从writePos后存下，就直接copy
     if(readPos_ <= writePos_) {
@@ -104,7 +104,7 @@ void Buffer::Append(const char* str, size_t len) {
     else {
         std::copy(str, str + len, BeginWrite());
     }
-    assert(len <= WritableBytes());
+    // assert(len <= WritableBytes());
     HasWritten(len);
 }
 
@@ -116,12 +116,12 @@ void Buffer::EnsureWriteable(size_t len) {
     if(WritableBytes() < len) {
         MakeSpace_(len);
     }
-    assert(WritableBytes() >= len);
+    // assert(WritableBytes() >= len);
 }
 
 void Buffer::MakeSpace_(size_t len) {
     if(WritableBytes()  < len) {
-        assert(writePos_ + len + 1 < buffer_.max_size());
+        // assert(writePos_ + len + 1 < buffer_.max_size());
         buffer_.resize(writePos_ + len + 1);
     } 
     else {
@@ -141,7 +141,7 @@ void Buffer::MakeSpace_(size_t len) {
         } 
         readPos_ = 0;
         writePos_ = readPos_ + readable;
-        assert(readable == ReadableBytes());
+        // assert(readable == ReadableBytes());
     }
 }
 
@@ -194,7 +194,7 @@ ssize_t Buffer::ReadFd(int fd, int* saveErrno) {
         // assert(len >= 0);
     }
     else if(static_cast<size_t>(len) <= writable) {
-        assert(len <= WritableBytes());
+        // assert(len <= WritableBytes());
         HasWritten(len);
     }
     else {

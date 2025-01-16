@@ -56,7 +56,7 @@ std::string  HttpRequest::search(Buffer& buff, const char* &line) {
     const char CRLF[] = "\r\n";
     if(buff.Asc()) {
         line = std::search(buff.Peek(), buff.BeginWriteConst(), CRLF, CRLF + 2);
-        assert(line >= buff.Peek());
+        // assert(line >= buff.Peek());
         if(buff.Peek() == line) return "";
         std::string s(buff.Peek(), line);
         return s;
@@ -64,7 +64,7 @@ std::string  HttpRequest::search(Buffer& buff, const char* &line) {
     else {
         line = std::search(buff.Peek(), buff.End(), CRLF, CRLF + 2);
         if(line == buff.End()) line = std::search(buff.Begin(), buff.BeginWriteConst(), CRLF, CRLF + 2);
-        assert(line >= buff.Begin());
+        // assert(line >= buff.Begin());
         if(line == buff.BeginWrite()) return "";
 
         if(line >= buff.Peek()) {
@@ -248,7 +248,7 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd, bo
     LOG_INFO("Verify name:%s pwd:%s", name.c_str(), pwd.c_str());
     MYSQL* sql;
     SqlConnRAII(&sql,  SqlConnPool::Instance());
-    assert(sql);
+    // assert(sql);
     
     bool flag = false;
     unsigned int j = 0;

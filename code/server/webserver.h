@@ -11,7 +11,7 @@
 #include <arpa/inet.h>
 
 #include "epoller.h"
-#include "../timer/heaptimer.h"
+#include "../timer/rbtreetimer.h"
 
 #include "../log/log.h"
 #include "../pool/sqlconnpool.h"
@@ -61,7 +61,7 @@ private:
     uint32_t listenEvent_;  // 监听事件
     uint32_t connEvent_;    // 连接事件
    
-    std::unique_ptr<HeapTimer> timer_;
+    std::unique_ptr<RbtreeTimer> timer_;
     std::unique_ptr<ThreadPool> threadpool_;
     std::unique_ptr<Epoller> epoller_;
     std::unordered_map<int, HttpConn> users_;
